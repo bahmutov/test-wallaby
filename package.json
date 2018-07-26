@@ -1,0 +1,36 @@
+{
+  "name": "test-wallaby",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/test-wallaby.git"
+  },
+  "keywords": [],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com> (https://glebbahmutov.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahmutov/test-wallaby/issues"
+  },
+  "homepage": "https://github.com/bahmutov/test-wallaby#readme",
+  "devDependencies": {
+    "@types/jest": "23.3.0",
+    "jest": "23.4.1",
+    "ts-jest": "23.0.1",
+    "typescript": "2.9.2"
+  },
+  "jest": {
+    "transform": {
+      "\\.ts$": "ts-jest"
+    },
+    "testRegex": "src/.*-spec\\.ts$",
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ]
+  }
+}
